@@ -1,0 +1,51 @@
+.logo-scroll {
+    display: none;
+}
+
+.header-section {
+    background-color: white;
+}
+
+.header-section.navbar-transparent {
+    background-color: transparent;
+}
+
+
+.header-section .logo {
+    display: none;
+}
+
+.header-section .logo-scroll {
+    display: inline-block;
+}
+
+
+.header-section.navbar-transparent .logo {
+    display: inline-block;
+}
+
+.header-section.navbar-transparent .logo-scroll {
+    display: none;
+}
+
+
+.header-section.navbar-transparent .header-right a {
+    color: #fff;
+}
+.header-section .header-right a {
+    color: #000;
+}
+
+
+.header-section.navbar-transparent  .borde > a:first-child {
+    color: #fff;
+    border-color: #fff;
+}
+
+
+
+.header-section .borde > a:first-child {
+    color: #000;
+    border-color: #000;
+}
+
